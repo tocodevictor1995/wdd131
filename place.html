@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Victor Silva">
+        <meta name="description" content="Week 03 Assignment">
+        <link rel="icon" href="images/country-page/logo.webp" type="image/x-icon">
+        <title>Country Page</title>
+        <link href="styles/place.css" type="text/css" rel="stylesheet">
+        <link href="styles/place-large.css" type="text/css" rel="stylesheet">
+        <script src="scripts/place.js" defer></script> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <h1>Curitiba Brazil</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/country-page/curitiba-large.webp">
+                
+                <img src="images/country-page/curitibal-mobilie-view.webp" alt="Tikal Guatemala" width="500" height="700">
+            </picture>
+        </div>
+        <section class="data">
+            <h2>Data</h2>
+            <table id="data">
+                <tbody>
+                    <tr>
+                        <td class="titles">Area</td>
+                        <td class="contents">Curitiba</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Population</td>
+                        <td class="contents">1.773.71 people</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Capital</td>
+                        <td class="contents">Curitiba, Paraná</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Languages</td>
+                        <td class="contents">Portuguese</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Currency</td>
+                        <td class="contents">Real</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Time Zone</td>
+                        <td class="contents">Brasília Time</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Calling Code</td>
+                        <td class="contents">+55</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Internet TLD</td>
+                        <td class="contents">.br</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <!--SVG FILE-->
+                <img id="svgimage" src="images/country-page/sunny.svg" alt="sunny">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="titles">Temperature</td>
+                        <td id="temperature" class="contents">21 ℃</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Conditions</td>
+                        <td class="contents">Partly cloudy</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Wind</td>
+                        <td id="wind" class="contents">14 km/h</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Wind Chill</td>
+                        <td id="windchill" class="contents"> 17 ℃</td>
+                    </tr>
+                    <tr>
+                        <td class="titles">Humidity</td>
+                        <td class="contents">79%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <span>&copy;</span>
+            <span id="currentyear"></span>
+            Victor Silva
+            Brazil
+        </p>
+        <p id="modified"></p>
+    </footer>
+</body>
+</html>
