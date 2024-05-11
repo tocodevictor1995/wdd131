@@ -1,0 +1,86 @@
+/* this will be the large view */
+
+@media screen and (min-width: 1000px)
+{
+    /*Global Variables*/
+    :root {
+        --primaryFont: "Poppins", sans-serif;
+        --primaryFontWeight: 400;
+        --primaryFontStyle: normal;
+    
+        --primaryColor: #474747;
+        --secondaryColor: #474747;
+        --thirdColor: #7fa04b;
+        --forthColor: #D4EAC8;
+        --fithColor: #C0D8E0;
+    
+        --normalPadding: 1rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto auto 300px;
+        grid-template-rows: auto auto;
+    }
+
+    
+    /*Grid layout*/
+
+    .hero {
+        grid-area: 1/1/3/4;
+    }
+    .data {
+        grid-area: 1/1/2/2;
+        width: auto;
+        background-color: rgb(86, 163, 166, 0.8);
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .data h2 {
+        background-color: rgb(202, 212, 157);
+        text-align: left;
+        font-style: normal;
+        margin-left: -25px;
+    }
+
+    .weather {
+        grid-area: 2/3/3/4;
+        width: auto;
+        background-color: rgb(86, 163, 166, 0.8);
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .weather h2 {
+        background-color: rgb(202, 212, 157);
+        text-align: left;
+        font-style: normal;
+        margin-left: -25px;
+    }
+    
+    .weather h2::after{
+        content: "⛅";
+    }
+
+    /*Hidding the svg image*/
+    #svgimage {
+        display: none;
+    }
+
+    footer {
+        max-width: 100%;
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

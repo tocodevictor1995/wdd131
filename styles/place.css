@@ -1,0 +1,104 @@
+/* The mobile devices view */
+
+
+/*Global variables*/
+:root {
+    --primaryFont: "Poppins", sans-serif;
+    --primaryFontWeight: 400;
+    --primaryFontStyle: normal;
+
+    --primaryColor: #474747;
+    --secondaryColor: #474747;
+    --thirdColor: #7fa04b;
+    --forthColor: #D4EAC8;
+    --fithColor: #C0D8E0;
+
+    --normalPadding: 1rem;
+}
+
+/*General Style*/
+body {
+    background-color: var(--fithColor);
+    margin: 0%;
+    font-family: var(--primaryFont);
+    font-weight: var(--primaryFontWeight);
+    font-style: var(--primaryFontStyle);
+}
+
+/*Header Style*/
+header {
+    background-color: var(--secondaryColor);
+    color: var(--thirdColor);
+    padding: var(--normalPadding);
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+header h1::before {
+    content: "☔ ";
+}
+
+/*Main Style*/
+
+main {
+    display: block;
+}
+main h2 {
+    text-align: center;
+    font-size: 35px;
+    color: var(--secondaryColor);
+    font-style: italic;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: solid var(--thirdColor) 10px;
+    border-top: solid var(--thirdColor) 10px;
+}
+
+main table {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    color: var(--secondaryColors);
+}
+
+.titles {
+    text-align: right;
+    margin-right: 0%;
+    padding: 1px;
+}
+.contents {
+    text-align: left;
+    margin-left: 0%;
+    padding: 1px;
+    font-weight: 400;
+}
+
+
+
+#svgimage {
+    width: 40%;
+}
+
+.weather {
+    text-align: center;
+}
+
+.data {
+    text-align: center;
+}
+/*Footer Style*/
+
+footer {
+    max-width: 100%;
+    background-color: var(--primaryColor);
+    padding: var(--normalPadding);
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-family: var(--primaryFont);
+}
