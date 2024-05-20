@@ -7,11 +7,11 @@
     --primaryFontWeight: 400;
     --primaryFontStyle: normal;
 
-    --primaryColor: #474747;
-    --secondaryColor: #474747;
-    --thirdColor: #7fa04b;
+    --primaryColor: #00c3ff;
+    --secondaryColor: #00c3ff;
+    --thirdColor: #fffb00;
     --forthColor: #D4EAC8;
-    --fithColor: #C0D8E0;
+    --fithColor: #61ff90;
 
     --normalPadding: 1rem;
 }
@@ -35,7 +35,7 @@ header {
 }
 
 header h1::before {
-    content: "☔ ";
+    content: "🌈 ";
 }
 
 /*Main Style*/

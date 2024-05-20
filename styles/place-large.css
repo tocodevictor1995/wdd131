@@ -8,11 +8,11 @@
         --primaryFontWeight: 400;
         --primaryFontStyle: normal;
     
-        --primaryColor: #474747;
-        --secondaryColor: #474747;
-        --thirdColor: #7fa04b;
+        --primaryColor: #00c3ff;
+        --secondaryColor: #00c3ff;
+        --thirdColor: #fffb00;
         --forthColor: #D4EAC8;
-        --fithColor: #C0D8E0;
+        --fithColor: #61ff90;
     
         --normalPadding: 1rem;
     }
@@ -32,13 +32,13 @@
     .data {
         grid-area: 1/1/2/2;
         width: auto;
-        background-color: rgb(86, 163, 166, 0.8);
+        background-color: rgba(255, 255, 255, 0.8);
         margin: 20px;
         padding: 10px;
     }
 
     .data h2 {
-        background-color: rgb(202, 212, 157);
+        background-color: rgb(240, 252, 69);
         text-align: left;
         font-style: normal;
         margin-left: -25px;
@@ -47,13 +47,13 @@
     .weather {
         grid-area: 2/3/3/4;
         width: auto;
-        background-color: rgb(86, 163, 166, 0.8);
+        background-color:  rgba(255, 255, 255, 0.8);
         margin: 20px;
         padding: 10px;
     }
 
     .weather h2 {
-        background-color: rgb(202, 212, 157);
+        background-color: rgb(240, 252, 69);
         text-align: left;
         font-style: normal;
         margin-left: -25px;
