@@ -1,0 +1,39 @@
+@media (min-width: 37.5em) {
+
+
+	#hamburguer-menu {
+		display: none;
+	}
+	header {
+		display: flex;
+		align-items: center;
+	justify-content: space-between;
+	}
+	.navi {
+		flex-direction: row;
+	}
+
+
+	.navi a {
+		display: block;
+		flex: 1 1 100%;
+       
+	}
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+}
+
+.temple-card h2 {
+	font-size: 1.2em;
+}
+
+.temple-card p {
+	font-size: 0.9em;
+}
+
+
+
