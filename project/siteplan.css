@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+p {
+    color: #34495e;
+}
+
+.color-scheme span.color-box {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
