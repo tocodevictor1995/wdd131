@@ -1,0 +1,202 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ecf0f1;
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/background.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(97, 81, 75, 0.8);
+    padding: 10px 0; 
+    position: flex;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo {
+    width: 100px; 
+    height: auto; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #f30000;
+}
+
+.hero {
+    background-color: rgba(97, 81, 75, 0.8); 
+    color: #ecf0f1;
+    text-align: center;
+    padding: 100px 20px; 
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+.hero h1 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+
+.hero .btn, 
+section .btn {
+    background-color: #f30000; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero .btn:hover, 
+section .btn:hover {
+    background-color: #c0392b; 
+    transform: scale(1.05);
+}
+
+
+.btn-meetings {
+    background-color: #3498db; 
+}
+
+.btn-meetings:hover {
+    background-color: #2980b9; 
+}
+
+.btn-books {
+    background-color: #9b59b6; 
+}
+
+.btn-books:hover {
+    background-color: #8e44ad; 
+}
+
+.btn-join {
+    background-color: #2ecc71; 
+}
+
+.btn-join:hover {
+    background-color: #27ae60; 
+}
+
+.btn-contact {
+    background-color: #e74c3c; 
+}
+
+.btn-contact:hover {
+    background-color: #c0392b; 
+}
+
+section {
+    padding: 60px 0;
+    background-color: rgba(97, 81, 75, 0.8);
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #000000;
+}
+
+.meeting, .book {
+    background-color: rgba(97, 124, 94, 0.8); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+.meeting h2, .book h2 {
+    margin-top: 0;
+}
+
+.book-image {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.book p {
+    margin: 0 0 10px; 
+}
+
+form {
+    background-color: rgba(97, 124, 94, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #a37827;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background-color: #cf7146;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: rgba(97, 81, 75, 0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
