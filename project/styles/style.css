@@ -4,7 +4,8 @@ body {
     background-color: #ecf0f1;
     margin: 0;
     padding: 0;
-    background-image:url('https://as2.ftcdn.net/v2/jpg/08/26/12/11/1000_F_826121190_Dlwvz8FJhvNSN9kcgxWd0lKX58nPnEFA.jpg'); /* url */
+    background-image: url('/images/background.jpg') ;
+    background-image: url('/images/background.jpg') ;
     background-size: cover;
     background-attachment: fixed;
 }
